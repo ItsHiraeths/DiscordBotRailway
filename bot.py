@@ -16,7 +16,7 @@ async def on_message(message):
     if message.author == bot.user:
         return
 
-    if "meimei" in message.content.lower():
+    if "meimei passwordnya?" in message.content.lower():
         await message.channel.send("Cimory Bites enak banget 🤭")
 
     await bot.process_commands(message)
